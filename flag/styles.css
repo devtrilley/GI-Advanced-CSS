@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  padding-top: 3.5rem;
+  background-color: rgb(57, 57, 57);
+}
+
+.flag {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border: 1px solid black;
+  width: 1002px;
+  height: 520px;
+}
+
+.red {
+  background-color: rgb(179, 25, 66);
+  width: 1000px;
+  height: 40px;
+}
+
+.white {
+  background-color: white;
+  width: 1000px;
+  height: 40px;
+}
+
+.stars {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: auto;
+  height: 280px;
+}
